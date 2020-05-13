@@ -1,0 +1,18 @@
+//Check xinu devices' status
+xinu-status -c rpi3
+
+//Turn in HW
+turnin -c [course#] [File/Dir]
+
+//Check current project
+turnin -l
+
+//Check submission
+turnin -v
+
+//File system
+./xinu-disk foo.dat voc2
+mips-console voc
+
+hexdump -C foo.dat | more
+
